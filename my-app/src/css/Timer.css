@@ -1,0 +1,74 @@
+/* Timer container */
+.timer-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 50px auto;
+    max-width: 400px;
+  }
+  
+  /* Title styling */
+  .timer-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .timer-container input {
+    width: 200px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Timer display styling */
+  .timer-display {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* Timer controls container */
+  .timer-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Button styling */
+  .timer-controls button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Start button (default style) */
+  .timer-controls button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  /* Stop button styling */
+  .timer-controls button:nth-child(2) {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .timer-controls button:nth-child(2):hover {
+    background-color: #45a049;
+  }
+  
+  /* Reset button styling */
+  .timer-controls button:nth-child(3) {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .timer-controls button:nth-child(3):hover {
+    background-color: #e53935;
+  }
+  

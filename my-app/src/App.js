@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import SumInput from './components/SumCaculattor';
+import Countdown from './components/Countdown';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1>Adding Two Numbers</h1>
 
         <SumInput/>
+        <Countdown/>
       </header>
     </div>
   );
